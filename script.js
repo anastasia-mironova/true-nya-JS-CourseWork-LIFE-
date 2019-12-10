@@ -408,7 +408,12 @@ inputs.onchange = () => {
     }
 }
 game.randomize();
+//переход на страницу справки
 let helpButton = document.querySelector("#help");
+let mainHelpButton = document.querySelector(".main-help");
+mainHelpButton.onclick = () => {
+    window.open("./help.html");
+}
 helpButton.onclick = () => {
     window.open("./help.html");
 }

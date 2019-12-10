@@ -94,7 +94,7 @@ button+span {
     height: 400px;
 }
 
-.play {
+.play, .main-help {
     outline: none;
     border: none;
     width: 300px;
@@ -102,4 +102,5 @@ button+span {
     font-size: 50px;
     background: #dd6f2f;
     border-radius: 10px;
+    margin: 15px 0;
 }
