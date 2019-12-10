@@ -1,0 +1,105 @@
+body {
+    background: #272b30;
+}
+
+#container {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    background: #353b41;
+    border: 1px solid black;
+    height: max-content;
+}
+
+canvas {
+    background: #353b41;
+}
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#round {
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+
+button+span {
+    font-size: 20px;
+}
+
+#buttons {
+    padding: 5px;
+}
+
+#buttons button {
+    width: 100%;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 3px 0px;
+    outline: none;
+    border: none;
+    color: #585f64;
+}
+
+#buttons button:first-child {
+    background: #59c059;
+}
+
+.items {
+    width: 40px;
+    height: 40px;
+    background: rgb(211, 206, 206);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.input-figure {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+}
+
+.input-figure {
+    display: none;
+}
+
+#help {
+    background: #f3919e;
+}
+
+.container {
+    display: none
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview img {
+    width: 600px;
+    height: 400px;
+}
+
+.play {
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 70px;
+    font-size: 50px;
+    background: #dd6f2f;
+    border-radius: 10px;
+}
